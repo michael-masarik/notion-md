@@ -1,0 +1,25 @@
+# Supported block types
+- [ ] Paragraph	
+- [x] Heading 1/2/3	
+- [x] Bulleted list	
+- [ ] Numbered list	
+- [x] To-do	
+- [x] Toggle	
+- [x] Quote	
+- [ ] Callout	
+- [x] Divider 
+- [x] Code	
+- [x] Equation	
+- [ ] Table	
+- [ ] Image	
+- [ ] File
+- [ ] Video
+- [x] Audio
+- [ ] PDF	
+- [ ] Child page
+- [ ] database	
+- [ ] Synced block	
+- [ ] Columns	
+- [x] Table of contents	
+- [x] Empty line
+- [ ] Mentions
