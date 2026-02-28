@@ -5,6 +5,11 @@ interface ListItem {
 interface CheckListItem extends ListItem {
   isChecked: boolean;
 }
+interface Media {
+  url: URL;
+  caption?: string;
+  color?: BlockColor;
+}
 
 type Color =
   | "gray"
@@ -26,5 +31,5 @@ type BGColor =
   | "purple_bg"
   | "pink_bg"
   | "red_bg";
-
-export type { BGColor, CheckListItem, Color, ListItem };
+type BlockColor = Color | BGColor;
+export type { BlockColor, CheckListItem, ListItem, Media };
